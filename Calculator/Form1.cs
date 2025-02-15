@@ -20,10 +20,15 @@ namespace Calculator
         private void button1_Click(object sender, EventArgs e)
         {
             int a, b, kq;
-            a = int.Parse(txtso1.Text);
-            b = int.Parse(txtso2.Text);
-            kq = a + b;
-            txtKQ.Text = kq.ToString();
+            if (txtso1.Text != String.Empty)
+            {
+
+                a = int.Parse(txtso1.Text);
+                b = int.Parse(txtso2.Text);
+                kq = a + b;
+                txtKQ.Text = kq.ToString();
+            }
+            MessageBox.Show("Nice!");
         }
     }
 }
