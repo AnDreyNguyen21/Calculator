@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtso1 = new System.Windows.Forms.TextBox();
+            this.txtso2 = new System.Windows.Forms.TextBox();
+            this.txtKQ = new System.Windows.Forms.TextBox();
             this.cong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -64,26 +64,26 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Ket qua";
             // 
-            // textBox1
+            // txtso1
             // 
-            this.textBox1.Location = new System.Drawing.Point(469, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtso1.Location = new System.Drawing.Point(469, 54);
+            this.txtso1.Name = "txtso1";
+            this.txtso1.Size = new System.Drawing.Size(100, 20);
+            this.txtso1.TabIndex = 3;
             // 
-            // textBox2
+            // txtso2
             // 
-            this.textBox2.Location = new System.Drawing.Point(469, 111);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtso2.Location = new System.Drawing.Point(469, 111);
+            this.txtso2.Name = "txtso2";
+            this.txtso2.Size = new System.Drawing.Size(100, 20);
+            this.txtso2.TabIndex = 4;
             // 
-            // textBox3
+            // txtKQ
             // 
-            this.textBox3.Location = new System.Drawing.Point(469, 171);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 5;
+            this.txtKQ.Location = new System.Drawing.Point(469, 171);
+            this.txtKQ.Name = "txtKQ";
+            this.txtKQ.Size = new System.Drawing.Size(100, 20);
+            this.txtKQ.TabIndex = 5;
             // 
             // cong
             // 
@@ -101,9 +101,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1097, 429);
             this.Controls.Add(this.cong);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtKQ);
+            this.Controls.Add(this.txtso2);
+            this.Controls.Add(this.txtso1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -119,9 +119,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtso1;
+        private System.Windows.Forms.TextBox txtso2;
+        private System.Windows.Forms.TextBox txtKQ;
         private System.Windows.Forms.Button cong;
     }
 }

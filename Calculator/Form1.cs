@@ -19,8 +19,11 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Phep cong");
-
+            int a, b, kq;
+            a = int.Parse(txtso1.Text);
+            b = int.Parse(txtso2.Text);
+            kq = a + b;
+            txtKQ.Text = kq.ToString();
         }
     }
 }
